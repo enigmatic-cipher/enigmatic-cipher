@@ -1,4 +1,4 @@
-[![MasterHead](https://visme.co/blog/wp-content/uploads/2019/10/animated-presentation-software-header-wide.gif)]
+![MasterHead](https://visme.co/blog/wp-content/uploads/2019/10/animated-presentation-software-header-wide.gif)
 <h1 align="center">Hi 👋, I'm Amit</h1>
 <h3 align="center">An enthusiastic software developer from India</h3>
 <img align="right" alt="coding" width="400" src="https://miro.medium.com/max/1360/0*7Q3yvSIv_t0ioJ-Z.gif">
