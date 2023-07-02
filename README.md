@@ -9,7 +9,7 @@
 
 - 💬 Ask me about **ReactJS, Python**
 
-- 📫 How to reach me **ar.cipher@outlook.com**
+- 📫 How to reach me **mighty.rex@outlook.com**
 
 - ⚡ Fun fact **The meaning of my name Amit is (in Hindi: अमित means "infinite") & (in Hebrew: עמית means "friend")**
 
