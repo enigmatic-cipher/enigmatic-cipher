@@ -9,7 +9,7 @@
 
 - 💬 Ask me about **Javascript, Typescript, & Python**
 
-- 📫 How to reach me **ar.sharma1@outlook.com**
+- 📫 How to reach me **iam.amitj@gmail.com**
 
 - ⚡ Fun fact **The meaning of my name Amit is (in Hindi: अमित means "infinite") & (in Hebrew: עמית means "friend")**
 
