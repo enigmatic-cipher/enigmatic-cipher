@@ -5,17 +5,13 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=enigmatic-cipher&label=Profile%20views&color=0e75b6&style=flat" alt="enigmatic-cipher" /> </p>
 
-- 🌱 I’m currently learning **Blockchain**
+- 💬 Ask me about **Javascript & Typescript**
 
-- 💬 Ask me about **Javascript, Typescript, & Python**
-
-- 📫 How to reach me **iam.amitj@gmail.com**
-
-- ⚡ Fun fact **The meaning of my name Amit is (in Hindi: अमित means "infinite") & (in Hebrew: עמית means "friend")**
+- 📫 How to reach me **iam.amitrj@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/enigmatic-cipher" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/2048px-Linkedin_icon.svg.png" alt="enigmatic-cipher" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/ar-thedev" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/2048px-Linkedin_icon.svg.png" alt="enigmatic-cipher" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/16515861/amit" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/640px-Stack_Overflow_icon.svg.png" alt="16515861/amit" height="30" width="40" /></a>
 </p>
 
