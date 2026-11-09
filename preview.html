@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>enigmatic-cipher — Profile README Preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --canvas: #0c0b0a;
+      --panel: #161412;
+      --ink: #f3ece3;
+      --muted: #a89f94;
+      --line: #2a2622;
+      --brass: #d4a574;
+      --brass-soft: rgba(212, 165, 116, 0.16);
+      --badge-base: #161412;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Source Sans 3", "Segoe UI", sans-serif;
+      color: var(--ink);
+      min-height: 100vh;
+      background-color: var(--canvas);
+      background-image:
+        radial-gradient(ellipse 70% 45% at 30% 0%, var(--brass-soft), transparent 55%),
+        radial-gradient(ellipse 55% 40% at 85% 20%, rgba(212, 165, 116, 0.08), transparent 50%),
+        linear-gradient(180deg, #12100e 0%, var(--canvas) 45%, #0a0908 100%);
+      background-size: 140% 140%, 120% 120%, 100% 100%;
+      background-position: 0% 0%, 100% 0%, 0 0;
+      animation: ambientDrift 18s ease-in-out infinite alternate;
+    }
+    @keyframes ambientDrift {
+      from { background-position: 0% 0%, 100% 0%, 0 0; }
+      to { background-position: 40% 20%, 60% 30%, 0 0; }
+    }
+    .chrome {
+      max-width: 920px;
+      margin: 32px auto 64px;
+      padding: 0 16px;
+    }
+    .label {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+      color: var(--muted);
+      font-size: 13px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      flex-wrap: wrap;
+    }
+    .label strong {
+      color: var(--brass);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+    }
+    .readme {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      padding: 28px 22px 36px;
+      line-height: 1.65;
+    }
+    @media (min-width: 768px) {
+      .readme { padding: 40px 44px 48px; }
+    }
+    .readme img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+    .hero {
+      text-align: center;
+      padding-bottom: 8px;
+      opacity: 0;
+      transform: translateY(14px);
+      animation: heroIn 0.7s ease-out 0.08s forwards;
+    }
+    .hero .banner {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .hero .typing {
+      display: block;
+      margin: 16px auto 8px;
+      min-height: 110px;
+    }
+    @keyframes heroIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .views { margin-top: 20px; }
+    .cta {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 22px;
+    }
+    .cta a {
+      line-height: 0;
+      display: inline-block;
+      border: 1px solid transparent;
+      border-radius: 3px;
+      transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+    }
+    .cta a:hover {
+      transform: translateY(-2px);
+      border-color: var(--brass);
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.28);
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--line);
+      margin: 32px 0;
+    }
+    h2 {
+      margin: 0 0 14px;
+      font-family: Fraunces, Georgia, serif;
+      font-size: 1.45rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+    }
+    .center { text-align: center; }
+    .readme p { margin: 0 0 14px; color: var(--ink); }
+    .facts {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px;
+      font-size: 0.98rem;
+    }
+    .facts th,
+    .facts td {
+      padding: 10px 0;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+      color: var(--ink);
+    }
+    .facts th {
+      width: 7.5rem;
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 0.85rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .facts a { color: var(--brass); text-decoration: none; }
+    .facts a:hover { text-decoration: underline; }
+    .tech { margin-top: 4px; }
+    .stats-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 8px;
+    }
+    .stats-row img {
+      width: min(100%, 420px);
+      flex: 1 1 280px;
+    }
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      font-family: Fraunces, Georgia, serif;
+      font-style: italic;
+      font-size: 1.05rem;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      body { animation: none; }
+      .hero {
+        opacity: 1;
+        transform: none;
+        animation: none;
+      }
+      .cta a { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="chrome">
+    <div class="label">
+      <strong>Preview</strong>
+      <span>enigmatic-cipher / enigmatic-cipher</span>
+    </div>
+    <article class="readme">
+      <header class="hero">
+        <img class="banner" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1510,50:2a2118,100:d4a574&height=200&section=header&text=Hi%20there%2C%20I'm%20Amit%20👋&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20from%20India&descAlignY=55&descSize=18" width="100%" alt="Header Banner" />
+        <a href="https://git.io/typing-svg">
+          <img class="typing" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F3ECE3&center=true&vCenter=true&multiline=true&repeat=true&width=620&height=110&lines=Full+Stack+Developer;JavaScript+%26+TypeScript+Enthusiast;Building+cool+things+with+code" alt="Typing SVG" />
+        </a>
+        <div class="views">
+          <img src="https://komarev.com/ghpvc/?username=enigmatic-cipher&label=Profile%20views&color=d4a574&style=flat-square" alt="Profile views" />
+        </div>
+        <div class="cta">
+          <a href="https://linkedin.com/in/ar-thedev"><img src="https://img.shields.io/badge/LinkedIn-161412?style=flat-square&logo=linkedin&logoColor=d4a574" alt="LinkedIn" /></a>
+          <a href="https://stackoverflow.com/users/16515861/amit"><img src="https://img.shields.io/badge/Stack%20Overflow-161412?style=flat-square&logo=stackoverflow&logoColor=d4a574" alt="Stack Overflow" /></a>
+          <a href="mailto:iam.amitrj@gmail.com"><img src="https://img.shields.io/badge/Email-161412?style=flat-square&logo=gmail&logoColor=d4a574" alt="Email" /></a>
+          <a href="https://github.com/enigmatic-cipher"><img src="https://img.shields.io/badge/GitHub-161412?style=flat-square&logo=github&logoColor=d4a574" alt="GitHub" /></a>
+        </div>
+      </header>
+
+      <hr />
+
+      <h2>About</h2>
+      <p>I build modern web products end to end — thoughtful UI on the front, reliable services on the back. Lately I’m deepening system design and cloud architecture so the things I ship stay fast as they grow.</p>
+      <table class="facts">
+        <tr><th>Role</th><td>Full Stack Developer</td></tr>
+        <tr><th>Focus</th><td>JavaScript · TypeScript · React · Node.js</td></tr>
+        <tr><th>Learning</th><td>System Design · Cloud Architecture</td></tr>
+        <tr><th>Email</th><td><a href="mailto:iam.amitrj@gmail.com">iam.amitrj@gmail.com</a></td></tr>
+      </table>
+
+      <hr />
+
+      <h2>Tech</h2>
+      <div class="tech">
+        <img src="https://skillicons.dev/icons?i=js,ts,python,html,css,react,nextjs,redux,tailwind,nodejs,express,django,mongodb,mysql,firebase,git,figma,linux&theme=dark" alt="Tech stack" />
+      </div>
+
+      <hr />
+
+      <div class="center">
+        <h2>Activity</h2>
+        <div class="stats-row">
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=enigmatic-cipher&theme=github_dark" alt="GitHub Stats" />
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=enigmatic-cipher&theme=github_dark" alt="Top Languages" />
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=enigmatic-cipher&theme=github_dark&utcOffset=5.5" alt="Productive Time" />
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=enigmatic-cipher&theme=dark&hide_border=true&background=161412&stroke=2A2622&ring=D4A574&fire=D4A574&currStreakLabel=D4A574" alt="GitHub Streak" />
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="center">
+        <h2>Contributions</h2>
+        <img src="https://ghchart.rshah.org/d4a574/enigmatic-cipher" width="100%" alt="Contribution Chart" />
+      </div>
+
+      <hr />
+
+      <div class="center">
+        <img src="https://capsule-render.vercel.app/api?type=waving&color=0:d4a574,50:2a2118,100:1a1510&height=120&section=footer" width="100%" alt="Footer Banner" />
+        <p class="footer">Thanks for stopping by — let's build something amazing together! 🚀</p>
+      </div>
+    </article>
+  </div>
+</body>
+</html>
