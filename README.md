@@ -1,25 +1,141 @@
-![MasterHead](https://visme.co/blog/wp-content/uploads/2019/10/animated-presentation-software-header-wide.gif)
-<h1 align="center">Hi 👋, I'm Amit</h1>
-<h3 align="center">An Enthusiastic Software Developer from India</h3>
-<img align="right" alt="coding" width="400" src="https://miro.medium.com/max/1360/0*7Q3yvSIv_t0ioJ-Z.gif">
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=enigmatic-cipher&label=Profile%20views&color=0e75b6&style=flat" alt="enigmatic-cipher" /> </p>
-
-- 💬 Ask me about **Javascript & Typescript**
-
-- 📫 How to reach me **iam.amitrj@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/ar-thedev" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/2048px-Linkedin_icon.svg.png" alt="enigmatic-cipher" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/16515861/amit" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/640px-Stack_Overflow_icon.svg.png" alt="16515861/amit" height="30" width="40" /></a>
+<!-- Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=200&section=header&text=Hi%20there%2C%20I'm%20Amit%20👋&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20from%20India&descAlignY=55&descSize=18" alt="Header Banner" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://babeljs.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://webpack.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40"/> </a> </p>
+<!-- Typing animation -->
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=7FDBFF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Full+Stack+Developer;JavaScript+%26+TypeScript+Enthusiast;Building+cool+things+with+code" alt="Typing SVG" />
+  </a>
+</p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=enigmatic-cipher&show_icons=true&locale=en&layout=compact" alt="enigmatic-cipher" /></p>
+<!-- Profile views -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=enigmatic-cipher&label=Profile%20views&color=6C3483&style=for-the-badge" alt="Profile views" />
+</p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=enigmatic-cipher&show_icons=true&locale=en" alt="enigmatic-cipher" /></p>
+---
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=enigmatic-cipher&" alt="enigmatic-cipher" /></p>
+## 💫 About Me
+
+```js
+const amit = {
+  pronouns: "he/him",
+  location: "India 🇮🇳",
+  role: "Full Stack Developer",
+  askMeAbout: ["JavaScript", "TypeScript", "React", "Node.js"],
+  currentlyLearning: "System Design & Cloud Architecture",
+  funFact: "I turn coffee into clean, scalable code ☕",
+};
+```
+
+- 🔭 I’m currently building modern web apps with **React**, **Next.js** & **Node.js**
+- 🌱 I’m diving deeper into **system design**, **cloud**, and better DX
+- 💬 Ask me about **JavaScript**, **TypeScript**, and full-stack architecture
+- 📫 Reach me at **iam.amitrj@gmail.com**
+- ⚡ Fun fact: I love crafting polished UIs and rock-solid APIs
+
+---
+
+## 🌐 Connect With Me
+
+<p align="center">
+  <a href="https://linkedin.com/in/ar-thedev" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://stackoverflow.com/users/16515861/amit" target="_blank">
+    <img src="https://img.shields.io/badge/Stack_Overflow-F48024?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Stack Overflow" />
+  </a>
+  &nbsp;
+  <a href="mailto:iam.amitrj@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/enigmatic-cipher" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
+
+---
+
+## 🛠️ Tech Stack
+
+### Languages
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,python,html,css&theme=dark" alt="Languages" />
+</p>
+
+### Frontend
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind,bootstrap&theme=dark" alt="Frontend" />
+</p>
+
+### Backend
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,django&theme=dark" alt="Backend" />
+</p>
+
+### Databases & Cloud
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase&theme=dark" alt="Databases" />
+</p>
+
+### Tools & Others
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,postman,figma,webpack,babel,linux&theme=dark" alt="Tools" />
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=enigmatic-cipher&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  &nbsp;
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=enigmatic-cipher&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=enigmatic-cipher&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://trophy.ryglcloud.net/?username=enigmatic-cipher&theme=tokyonight&no-frame=true&no-bg=false&margin-w=8&column=7" alt="GitHub Trophies" />
+</p>
+
+---
+
+## 📈 Contribution Graph
+
+<p align="center">
+  <img src="https://activitygraph.vercel.app/graph?username=enigmatic-cipher&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
+</p>
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/enigmatic-cipher/enigmatic-cipher/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/enigmatic-cipher/enigmatic-cipher/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/enigmatic-cipher/enigmatic-cipher/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
+
+---
+
+<!-- Footer -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=120&section=footer" alt="Footer Banner" />
+</p>
+
+<p align="center">
+  <i>Thanks for stopping by — let's build something amazing together! 🚀</i>
+</p>
