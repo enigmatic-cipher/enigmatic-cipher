@@ -157,16 +157,28 @@
     .facts a { color: var(--brass); text-decoration: none; }
     .facts a:hover { text-decoration: underline; }
     .tech { margin-top: 4px; }
-    .stats-row {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 12px;
+    .stats-grid {
+      width: 100%;
+      border-collapse: collapse;
       margin-top: 8px;
+      table-layout: fixed;
     }
-    .stats-row img {
-      width: min(100%, 420px);
-      flex: 1 1 280px;
+    .stats-grid td {
+      width: 50%;
+      padding: 8px;
+      vertical-align: middle;
+      text-align: center;
+    }
+    .stats-grid td.full {
+      width: 100%;
+    }
+    .stats-grid img {
+      width: 100%;
+      max-width: 420px;
+      height: auto;
+    }
+    .stats-grid td.full img {
+      max-width: 520px;
     }
     .footer {
       text-align: center;
@@ -196,7 +208,7 @@
       <header class="hero">
         <img class="banner" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1510,50:2a2118,100:d4a574&height=200&section=header&text=Hi%20there%2C%20I'm%20Amit%20👋&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20from%20India&descAlignY=55&descSize=18" width="100%" alt="Header Banner" />
         <a href="https://git.io/typing-svg">
-          <img class="typing" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F3ECE3&center=true&vCenter=true&multiline=true&repeat=true&width=620&height=110&lines=Full+Stack+Developer;JavaScript+%26+TypeScript+Enthusiast;Building+cool+things+with+code" alt="Typing SVG" />
+          <img class="typing" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F3ECE3&background=161412&center=true&vCenter=true&multiline=true&repeat=true&width=620&height=110&lines=Full+Stack+Developer;JavaScript+%26+TypeScript+Enthusiast;Building+cool+things+with+code" alt="Typing SVG" />
         </a>
         <div class="views">
           <img src="https://komarev.com/ghpvc/?username=enigmatic-cipher&label=Profile%20views&color=d4a574&style=flat-square" alt="Profile views" />
@@ -231,12 +243,21 @@
 
       <div class="center">
         <h2>Activity</h2>
-        <div class="stats-row">
-          <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=enigmatic-cipher&theme=github_dark" alt="GitHub Stats" />
-          <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=enigmatic-cipher&theme=github_dark" alt="Top Languages" />
-          <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=enigmatic-cipher&theme=github_dark&utcOffset=5.5" alt="Productive Time" />
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=enigmatic-cipher&theme=dark&hide_border=true&background=161412&stroke=2A2622&ring=D4A574&fire=D4A574&currStreakLabel=D4A574" alt="GitHub Streak" />
-        </div>
+        <table class="stats-grid">
+          <tr>
+            <td>
+              <img src="https://github-readme-stats.vercel.app/api?username=enigmatic-cipher&show_icons=true&hide_border=true&title_color=d4a574&icon_color=d4a574&text_color=f3ece3&bg_color=161412" alt="GitHub Stats" />
+            </td>
+            <td>
+              <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=enigmatic-cipher&layout=compact&hide_border=true&title_color=d4a574&text_color=f3ece3&bg_color=161412" alt="Top Languages" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="full">
+              <img src="https://github-readme-streak-stats.herokuapp.com/?user=enigmatic-cipher&hide_border=true&background=161412&stroke=2A2622&ring=D4A574&fire=D4A574&currStreakLabel=D4A574&sideLabels=A89F94&sideNums=F3ECE3&dates=A89F94&currStreakNum=F3ECE3" alt="GitHub Streak" />
+            </td>
+          </tr>
+        </table>
       </div>
 
       <hr />
