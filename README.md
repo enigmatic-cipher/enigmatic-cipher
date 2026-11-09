@@ -92,13 +92,15 @@ const amit = {
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=enigmatic-cipher&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=enigmatic-cipher&theme=tokyonight" alt="GitHub Stats" />
   &nbsp;
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=enigmatic-cipher&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=enigmatic-cipher&theme=tokyonight" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=enigmatic-cipher&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=enigmatic-cipher&theme=tokyonight&utcOffset=5.5" alt="Productive Time" />
+  &nbsp;
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=enigmatic-cipher&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
@@ -106,27 +108,21 @@ const amit = {
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://trophy.ryglcloud.net/?username=enigmatic-cipher&theme=tokyonight&no-frame=true&no-bg=false&margin-w=8&column=7" alt="GitHub Trophies" />
+  <img src="https://trophy.ryglcloud.net/?username=enigmatic-cipher&theme=tokyonight&no-frame=true&margin-w=8&column=4&rank=SSS,SS,S,AAA,AA,A,B,C" alt="GitHub Trophies" />
 </p>
 
 ---
 
-## 📈 Contribution Graph
+## 📈 Contributions
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/bb86fc/enigmatic-cipher" alt="Contribution Chart" width="100%" />
+</p>
+
+<br />
 
 <p align="center">
   <img src="https://activitygraph.vercel.app/graph?username=enigmatic-cipher&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
-</p>
-
----
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/enigmatic-cipher/enigmatic-cipher/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/enigmatic-cipher/enigmatic-cipher/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/enigmatic-cipher/enigmatic-cipher/output/github-contribution-grid-snake.svg" />
-  </picture>
 </p>
 
 ---
