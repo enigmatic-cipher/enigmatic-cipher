@@ -119,12 +119,6 @@ const amit = {
   <img src="https://ghchart.rshah.org/bb86fc/enigmatic-cipher" alt="Contribution Chart" width="100%" />
 </p>
 
-<br />
-
-<p align="center">
-  <img src="https://activitygraph.vercel.app/graph?username=enigmatic-cipher&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
-</p>
-
 ---
 
 <!-- Footer -->
